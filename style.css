@@ -1,0 +1,170 @@
+body{
+	background-image: url(background.jpg);
+	background-repeat: repeat-x;
+	background-size: 640px 288px;
+}
+
+p, h2{
+	color:red;
+	text-align:center;
+}
+
+h2{
+	background-color: white;
+	font-size: 47px;
+	border: 3px solid;
+	border-radius: 20px;
+	vertical-align: center;
+	padding: 70px;
+	margin-top: 31px;
+	margin-right: 600px;
+	margin-left: 600px;
+}
+
+p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.style{
+ 	border-radius: 5px;
+ 	border: 1.5px solid;
+	padding: 8px;
+	margin-top: 2px;
+	cursor: pointer;
+	font-family: Copperplate;
+}
+
+#btn-start:hover{
+	background: #8d0801;
+	
+}
+
+#btn-restart:hover{
+	background: #8d0801;	
+}
+
+ #btn-start, #btn-restart{
+ 	height: 60px;
+  	width: 100px;
+ 	color: white;
+ 	font-size: 19px;
+ 	border: none;
+ 	text-align: center;
+ 	background-color: #bf0603;
+	margin-left: 910px;
+	margin-right: 930px;
+	letter-spacing: 1px;
+	transition: 0.2s;
+}
+
+ #mySelect{
+	margin-left: 895px;
+	margin-right: 930px;
+	width: 130px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+ }
+
+ #mySelect:hover{
+ 	background-color: #bf0603;
+ 	color: white;
+ 	border: none;
+
+ }
+
+#pista{
+	background: url(track.jpg);
+	position: absolute;
+	height: 300px;
+	width: 65%;
+	z-index: -1;
+
+}
+
+.carposition{
+	 margin-left: 0px;
+	 padding-top: 13px;
+	 width: 80px;
+	 height: 60px;
+}
+
+ #car1{
+	z-index: 1;
+}
+
+#car2{
+	z-index: 2;
+}
+#car3{
+	z-index: 3;
+}
+#car4{
+	z-index: 4;
+}
+
+#ranking {
+	margin-left: 1250px;
+	border-collapse: collapse;
+	border: 2px solid;
+	border-color: 8d0801;
+	border-radius: 10px;
+	background-color: #bf0603;
+	color: white;
+	padding: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: absolute;
+	text-align: center;
+	font-size: 25px;
+}
+
+.rnk-td{
+	border: 5px solid;
+	border-collapse: collapse;
+	background-color: bf0603;
+	border-color: 8d0801;
+	vertical-align: center;
+	padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.sign {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    padding: 20px;
+
+    position: relative;
+    border-radius: 8px 8px 8px 8px;
+    width: 100px;
+    background: #b1a7a6;
+    border-color: #b1a7a6;
+}
+
+.sign:after {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 50px;
+   border-top: 20px solid blue;
+   border-top-color: inherit;
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+}
+
+#cp{
+	margin-left: 545px;
+	float: left;
+ 	bottom: 120px;
+}
+
+#goal{
+	float: left;
+	margin-left: 370px;
+	bottom: 100px;
+}
